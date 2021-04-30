@@ -13,6 +13,7 @@ config=config()
 from tensorflow.python.client import device_lib
 import os 
 os.environ['CUDA_VISIBLE_DEVICES']=config.GPU
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 from utils import *
 
