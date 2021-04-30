@@ -5,8 +5,8 @@ class config(object):
         self.dict_path='../data/1-billion/dict.pkl'                                 #dictionary path
         self.emb_path='../data/1-billion/emb.pkl'                               #word embedding path, used when config.sim=='word_max' or config.sim=='combine'
         self.skipthoughts_path='../skip_thought'                                 #path of skipthoughts, used when config.sim=='skipthoughts' or config.sim=='combine'        
-        #self.liguistic_path='../linguistics'                                              #path of data of liguistics package
-        self.liguistic_path='/data00/home/miaoning/util/linguistics'
+        self.liguistic_path='../linguistics'                                              #path of data of liguistics package
+        # self.liguistic_path='/data00/home/miaoning/util/linguistics'
         self.pos_path='../POS/english-models'                                    #path for pos tagger
         self.dict_size=50000
         self.vocab_size=50003
