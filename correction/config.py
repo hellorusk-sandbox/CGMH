@@ -31,8 +31,8 @@ class config(object):
         
         self.GPU='0'
         self.mode='use'
-        self.sample_time=31
-        self.record_time=[30]
+        self.sample_time=101
+        self.record_time=[100]
         for i in range(len(self.record_time)):
             self.record_time[i]*=2                                                      #output the sentence at record_time steps
         self.sample_sentence_number=119
